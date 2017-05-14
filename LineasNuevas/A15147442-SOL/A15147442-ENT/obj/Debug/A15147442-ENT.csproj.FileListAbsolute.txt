@@ -1,0 +1,9 @@
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.pdb
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.csprojResolveAssemblyReference.cache
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.pdb
