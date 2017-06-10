@@ -1,0 +1,52 @@
+﻿@model A15147442_API.ViewModels.ClienteViewModel
+@using A15147442_ENT.Entities
+
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Clientes</h2>
+
+@using (Html.BeginForm("Cliente", "SaveClientes"))
+{
+    @Html.ValidationSummary()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cliente.Nombre)
+        @Html.TextBoxFor(m => m.Cliente.Nombre, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Cliente.Nombre)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cliente.Apellido)
+        @Html.TextBoxFor(m => m.Cliente.Apellido, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Cliente.Apellido)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cliente.DNI)
+        @Html.TextBoxFor(m => m.Cliente.DNI, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Cliente.DNI)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cliente.Correo)
+        @Html.TextBoxFor(m => m.Cliente.Correo, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Cliente.Correo)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cliente.Edad)
+        @Html.TextBoxFor(m => m.Cliente.Edad, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Cliente.Edad)
+    </div>
+
+
+
+    @Html.HiddenFor(m => m.Cliente.ClienteId);
+
+    <button type="submit" class="btn btn-primary">
+        Guardar
+    </button>
+}

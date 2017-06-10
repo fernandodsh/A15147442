@@ -1,0 +1,27 @@
+﻿@model A15147442_ENT.Entities.CentroDeAtencion
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CentroDeAtencion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Centro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Centro)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CentroId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<A15147442_ENT.Entities.Contrato>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista de Contratos</h2>
+
+<p>
+    @Html.ActionLink("Agregar", "New")
+</p>
+<table id="tbl_contratos" class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <th>Nombre De La Empresa</th>
+            <th>Fecha De Inicio</th>
+            <th>Fecha De Fin De Contrato</th>
+            <th>Editar</th>
+            <th>Detalles</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+
+</table>
+
+@section scripts
+{
+    <script>
+        $(document)
+         .ready(function () {
+             var table =  $("#tbl_contratos")
+              .DataTable({
+                  ajax: {
+                      url: "/api/Contratos",
+                      dataSrc: ""
+                  },
+                  columns: [
+                      { data: "NombreDeLaEmpresa" },
+                      { data: "FechaInicial" },
+                      { data: "FechaFin" },
+                      {
+                          data: "ContratoId",
+                          render: function (data, type, contratos) {
+                              return "<a href='/Contratos/edit/"+data+"'>Actualizar</a>";
+                          }
+                      },
+                      {
+                          data: "ContratoId",
+                          render: function (data, type, contratos) {
+                              return "<a href='/Contratos/details/" + data + "'>Detalles</a>";
+                          }
+                      },
+                      {
+                          data:"ContratoId",
+                          render: function (data) {
+                              return "<button class= 'btn btn-link js-delete' data-Contratos-id=" + data + ">Borrar</button>";
+                          }
+                      }
+
+
+                  ]
+
+              });
+        });
+    </script>
+}

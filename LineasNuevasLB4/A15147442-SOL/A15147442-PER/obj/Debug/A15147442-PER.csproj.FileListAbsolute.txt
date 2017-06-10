@@ -1,0 +1,56 @@
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csprojResolveAssemblyReference.cache
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll.config
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.pdb
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.pdb
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.xml
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.xml
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.pdb
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442_PER.Migrations.InitialModel.resources
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csproj.GenerateResource.Cache
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll.config
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.xml
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.xml
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csprojResolveAssemblyReference.cache
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442_PER.Migrations.InitialModel.resources
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csproj.GenerateResource.Cache
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.pdb
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll.config
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.pdb
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.pdb
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.xml
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csprojResolveAssemblyReference.cache
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442_PER.Migrations.InitialModel.resources
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csproj.GenerateResource.Cache
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll.config
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-PER.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\A15147442-ENT.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442_PER.Migrations.baseModel.resources
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-PER\obj\Debug\A15147442-PER.pdb

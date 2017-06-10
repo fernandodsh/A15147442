@@ -1,0 +1,67 @@
+﻿@model IEnumerable<A15147442_ENT.Entities.Provincia>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista de Provincias</h2>
+
+<p>
+    @Html.ActionLink("Provincia", "New")
+</p>
+<table id="tbl_provincias" class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <th>Nombre de Provincia</th>
+            <th>Editar</th>
+            <th>Detalles</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+
+</table>
+
+
+@section scripts
+{
+    <script>
+        $(document)
+         .ready(function () {
+             var table =  $("#tbl_provincias")
+              .DataTable({
+                  ajax: {
+                      url: "/api/Provincias",
+                      dataSrc: ""
+                  },
+                  columns: [
+                      { data: "Descripcion" },
+                      {
+                          data: "ProvinciaId",
+                          render: function (data, type, provincias) {
+                              return "<a href='/Provincias/edit/"+data+"'>Actualizar</a>";
+                          }
+                      },
+                      {
+                          data: "ProvinciaId",
+                          render: function (data, type, provincias) {
+                              return "<a href='/Provincias/details/" + data + "'>Detalles</a>";
+                          }
+                      },
+                      {
+                          data:"ProvinciaId",
+                          render: function (data) {
+                              return "<button class= 'btn btn-link js-delete' data-Provincias-id=" + data + ">Borrar</button>";
+                          }
+                      }
+
+
+                  ]
+
+              });
+        });
+    </script>
+}

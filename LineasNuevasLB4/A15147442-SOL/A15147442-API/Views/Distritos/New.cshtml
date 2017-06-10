@@ -1,0 +1,28 @@
+﻿@model A15147442_API.ViewModels.DistritoViewModel
+@using A15147442_ENT.Entities
+
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Agregar Distritos</h2>
+
+@using (Html.BeginForm("SaveDistritos", "distritos"))
+{
+    @Html.ValidationSummary()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Distrito.Descripcion)
+        @Html.TextBoxFor(m => m.Distrito.Descripcion, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Distrito.Descripcion)
+    </div>
+
+    
+
+    @Html.HiddenFor(m => m.Distrito.DistritoId);
+
+    <button type="submit" class="btn btn-primary">
+        Guardar
+    </button>
+}

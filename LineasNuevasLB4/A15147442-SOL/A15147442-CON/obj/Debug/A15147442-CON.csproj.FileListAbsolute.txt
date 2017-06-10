@@ -1,0 +1,24 @@
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe.config
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.pdb
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.exe
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe.config
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.exe
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.csprojResolveAssemblyReference.cache
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe.config
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.pdb
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.exe
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.pdb
+F:\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe.config
+F:\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.exe
+F:\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe.config
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.exe
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\bin\Debug\A15147442-CON.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.exe
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-CON\obj\Debug\A15147442-CON.pdb

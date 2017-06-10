@@ -1,0 +1,28 @@
+﻿@model A15147442_API.ViewModels.CentroDeAtencionViewModel
+@using A15147442_ENT.Entities
+
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Registro De Centro De Atencion</h2>
+
+@using (Html.BeginForm("SaveCentroDeAtencion", "CentroDeAtencion"))
+{
+    @Html.ValidationSummary()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.CentroDeAtencion.Centro)
+        @Html.TextBoxFor(m => m.CentroDeAtencion.Centro, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.CentroDeAtencion.Centro)
+    </div>
+
+    
+
+    @Html.HiddenFor(m => m.CentroDeAtencion.CentroId);
+
+    <button type="submit" class="btn btn-primary">
+        Guardar
+    </button>
+}

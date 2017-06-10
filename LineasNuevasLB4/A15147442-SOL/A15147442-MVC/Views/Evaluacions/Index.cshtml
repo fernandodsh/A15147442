@@ -1,0 +1,69 @@
+﻿@model IEnumerable<A15147442_ENT.Entities.Evaluacion>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Evaluaciones</h2>
+
+<p>
+    @Html.ActionLink("Agregar", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricpion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LineaTelefonica.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipoDeCelular.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Plan.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoDeEvaluacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoDeEvaluacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricpion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LineaTelefonica.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipoDeCelular.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Plan.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoDeEvaluacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoDeEvaluacion)
+        </td><td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.EvaluacionId }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.EvaluacionId }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.EvaluacionId })
+        </td>
+    </tr>
+}
+
+</table>

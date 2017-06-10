@@ -1,0 +1,73 @@
+﻿@model IEnumerable<A15147442_ENT.Entities.Departamento>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista de Departamentos</h2>
+
+<p>
+    @Html.ActionLink("Agregar", "New")
+</p>
+<table id="tbl_departamentos" class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <th>Nombre De Departamento</th>
+            <th>Editar</th>
+            <th>Detalles</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+
+</table>
+
+@section scripts
+{
+    <script>
+        $(document)
+         .ready(function () {
+             var table =  $("#tbl_departamentos")
+              .DataTable({
+                  ajax: {
+                      url: "/api/Departamentos",
+                      dataSrc: ""
+                  },
+                  columns: [
+                      { data: "Descripcion" },
+                      {
+                          data: "DepartamentoId",
+                          render: function (data, type, departamentos) {
+                              return "<a href='/Departamentos/edit/"+data+"'>Actualizar</a>";
+                          }
+                      },
+                      {
+                          data: "DepartamentoId",
+                          render: function (data, type, departamentos) {
+                              return "<a href='/Departamentos/details/" + data + "'>Detalles</a>";
+                          }
+                      },
+                      {
+                          data:"DepartamentoId",
+                          render: function (data) {
+                              return "<button class= 'btn btn-link js-delete' data-Departamento-id=" + data + ">Borrar</button>";
+                          }
+                      }
+
+
+                  ]
+
+              });
+        });
+    </script>
+}
+
+
+
+
+@*@Html.ActionLink("Edit", "Edit", new { id = item.DepartamentoId }) |
+@Html.ActionLink("Details", "Details", new { id = item.DepartamentoId }) |
+@Html.ActionLink("Delete", "Delete", new { id = item.DepartamentoId })*@

@@ -1,0 +1,22 @@
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.pdb
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.dll
+D:\000Archivos\Documents\Visual Studio 2013\Projects\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.pdb
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.csprojResolveAssemblyReference.cache
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.dll
+D:\000Archivos\Desktop\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.pdb
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.pdb
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.dll
+C:\Users\Clase\Downloads\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll.config
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\A15147442-ENT.pdb
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.dll
+C:\Users\USER\Desktop\Fernando\a15147442-master\LineasNuevas\A15147442-SOL\A15147442-ENT\obj\Debug\A15147442-ENT.pdb

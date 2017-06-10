@@ -1,0 +1,49 @@
+﻿@model A15147442_ENT.Entities.Contrato
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Borrar</h2>
+
+<h3>Estas Seguro de Borrar Contrato?</h3>
+<div>
+    <h4>Contrato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreDeLaEmpresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreDeLaEmpresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaInicial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaInicial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaFin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaFin)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver", "Index")
+        </div>
+    }
+</div>

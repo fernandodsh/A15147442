@@ -1,0 +1,67 @@
+﻿@model IEnumerable<A15147442_ENT.Entities.Distrito>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista de Distritos</h2>
+
+<p>
+    @Html.ActionLink("Distritos", "New")
+</p>
+<table id="tbl_distritos" class="table table-bordered table-hover">
+    
+    <thead>
+        <tr>
+            <th>Nombre De Distrito</th>
+            <th>Editar</th>
+            <th>Detalles</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    
+
+</table>
+
+
+@section scripts
+{
+    <script>
+        $(document)
+         .ready(function () {
+             var table =  $("#tbl_distritos")
+              .DataTable({
+                  ajax: {
+                      url: "/api/Distritos",
+                      dataSrc: ""
+                  },
+                  columns: [
+                      { data: "Descripcion" },
+                      {
+                          data: "DistritoId",
+                          render: function (data, type, distritos) {
+                              return "<a href='/Distritos/edit/"+data+"'>Actualizar</a>";
+                          }
+                      },
+                      {
+                          data: "DistritoId",
+                          render: function (data, type, distritos) {
+                              return "<a href='/Distritos/details/" + data + "'>Detalles</a>";
+                          }
+                      },
+                      {
+                          data:"DistritoId",
+                          render: function (data) {
+                              return "<button class= 'btn btn-link js-delete' data-Distritos-id=" + data + ">Borrar</button>";
+                          }
+                      }
+
+
+                  ]
+
+              });
+        });
+    </script>
+}

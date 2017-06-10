@@ -1,0 +1,49 @@
+﻿@model A15147442_API.ViewModels.TrabajadorViewModel
+@using A15147442_ENT.Enum
+
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Trabajadores</h2>
+
+@using (Html.BeginForm("SaveTrabajadores", "trabajadores"))
+{
+    @Html.ValidationSummary()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Trabajador.Nombre)
+        @Html.TextBoxFor(m => m.Trabajador.Nombre, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Trabajador.Nombre)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Trabajador.Apellido)
+        @Html.TextBoxFor(m => m.Trabajador.Apellido, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Trabajador.Apellido)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Trabajador.DNI)
+        @Html.TextBoxFor(m => m.Trabajador.DNI, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Trabajador.DNI)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Trabajador.FechaInicioContrato)
+        @Html.TextBoxFor(m => m.Trabajador.FechaInicioContrato, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Trabajador.FechaInicioContrato)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Trabajador.TipoTrabajador)
+        @Html.EnumDropDownListFor(model => model.Trabajador.TipoTrabajador, new { @class = "form-control" })
+    </div>
+
+    @Html.HiddenFor(m => m.Trabajador.TrabajadorId);
+
+    <button type="submit" class="btn btn-primary">
+        Guardar
+    </button>
+}

@@ -1,0 +1,81 @@
+﻿@model A15147442_ENT.Entities.Evaluacion
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Desea realmente borra algun registro?</h3>
+<div>
+    <h4>Evaluacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipoDeCelular.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipoDeCelular.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LineaTelefonica.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LineaTelefonica.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Plan.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Plan.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricpion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricpion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadoDeEvaluacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadoDeEvaluacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoDeEvaluacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoDeEvaluacion)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver", "Index")
+        </div>
+    }
+</div>

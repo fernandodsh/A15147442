@@ -1,0 +1,57 @@
+﻿@model A15147442_ENT.Entities.Venta
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Desea Realmente Eliminar</h3>
+<div>
+    <h4>Venta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Encargado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Encargado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaVendida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaVendida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoDePago)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoDePago)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver", "Index")
+        </div>
+    }
+</div>
